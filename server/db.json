@@ -1,0 +1,30 @@
+{
+  "customers": [
+    {
+      "id": "893d3475-342c-4b82-917e-fbe0ab744169",
+      "name": "Budi",
+      "email": "budi@gmail.com",
+      "phone": "081234567890",
+      "createdAt": "2026-05-27T10:48:55.050Z"
+    },
+    {
+      "id": "9fe19725-30c3-44dc-86b0-788dd029f13d",
+      "name": "Sekar",
+      "email": "sekar@gmail.com",
+      "phone": "0878-8989-7878",
+      "createdAt": "2026-05-27T11:22:33.835Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "e359b793-c06e-457c-844b-2c5d30b57c2c",
+      "customer_id": "893d3475-342c-4b82-917e-fbe0ab744169",
+      "items": [
+        "Nasi Goreng",
+        "Es Tebu"
+      ],
+      "total_price": 45000,
+      "createdAt": "2026-05-27T11:22:58.877Z"
+    }
+  ]
+}
