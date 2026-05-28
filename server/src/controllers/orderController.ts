@@ -6,7 +6,7 @@ export const addOrder = (req: Request, res: Response) => {
     const { customer_id, items, total_price } = req.body;
 
     if (!customer_id || !items || !Array.isArray(items) || total_price === undefined) {
-        return res.status(400).json({ error: 'customer_id, items[], dan total_price wajib diisi' });
+        return res.status(400).json({ error: 'items, dan total price wajib diisi' });
     }
 
     const db = readDB();
